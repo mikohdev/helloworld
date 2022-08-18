@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mikohdev/helloworld.git/precache-manifest.f45266c397e4b2ae1f43775b6ce1b3da.js"
+  "/helloworld/precache-manifest.ac6ccc510c799a3a58bafad7049c6ea8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mikohdev/helloworld.git/index.html", {
+workbox.routing.registerNavigationRoute("/helloworld/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
